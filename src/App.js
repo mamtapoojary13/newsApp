@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     fetch(
-      `https://newsapi.org/v2/everything?q=${category}&from=${date}&apiKey=83cde47061be4a78b5cdd000bca04953`
+      `https://newsapi.org/v2/everything?q=${category}&from=${date}&apiKey=adbcb311e7cc4a89b4da363065b5aa64`
     )
       .then((response) => response.json())
       .then((news) => {
